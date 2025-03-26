@@ -1,5 +1,5 @@
--mở terminal chạy yarn build:css (lưu ý không được đóng terminal)
-- tiếp theo mở terminal mới chạy yarn start:dev trang web sẽ được hiển thị
+-mở terminal trong VSCode chạy yarn build:css (lưu ý không được đóng terminal)
+- tiếp theo mở terminal VSCode mới chạy yarn start:dev trang web sẽ được hiển thị
 
 <!---
 VanKiet414/VanKiet414 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
