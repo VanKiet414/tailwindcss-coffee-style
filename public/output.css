@@ -580,10 +580,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
-.mb-20{
-  margin-bottom: 5rem;
-}
-
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -638,6 +634,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-h-\[54px\]{
   max-height: 54px;
+}
+
+.min-h-\[350px\]{
+  min-height: 350px;
 }
 
 .w-full{
@@ -763,6 +763,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 3rem;
 }
 
+.gap-4{
+  gap: 1rem;
+}
+
 .border-\[1px\]{
   border-width: 1px;
 }
@@ -799,11 +803,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-inherit{
   background-color: inherit;
-}
-
-.bg-slate-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-40{
@@ -906,6 +905,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-repeat: no-repeat;
 }
 
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1004,11 +1008,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-\[22px\]{
@@ -1398,11 +1397,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-coffee-400:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(162 95 75 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-opacity-10:hover{
   --tw-bg-opacity: 0.1;
 }
@@ -1541,6 +1535,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 130px;
   }
 
+  .md\:h-\[500px\]{
+    height: 500px;
+  }
+
   .md\:basis-full{
     flex-basis: 100%;
   }
@@ -1600,6 +1598,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
   .lg\:items-center{
     align-items: center;
   }
@@ -1623,6 +1625,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:px-64{
     padding-left: 16rem;
     padding-right: 16rem;
+  }
+
+  .lg\:pl-8{
+    padding-left: 2rem;
+  }
+
+  .lg\:pl-6{
+    padding-left: 1.5rem;
+  }
+
+  .lg\:text-left{
+    text-align: left;
+  }
+
+  .lg\:text-center{
+    text-align: center;
   }
 }
 
